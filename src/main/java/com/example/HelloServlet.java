@@ -9,6 +9,6 @@ public class HelloServlet extends HttpServlet {
             throws IOException {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.println("<h1>Hello from Simple Java Web App! Testing Push Commit</h1>");
+        out.println("<h1>Hello from Simple Java Web App!</h1>");
     }
 }
