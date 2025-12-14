@@ -9,6 +9,8 @@ public class HelloServlet extends HttpServlet {
             throws IOException {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.println("<h1>Hello from Simple Java Web App!</h1>");
+        out.println("<h1>Hello from Simple Java Web App!</h1>
+        <h1>A New Line To Test Auto Build On Github Push</h1>
+        ");
     }
 }
